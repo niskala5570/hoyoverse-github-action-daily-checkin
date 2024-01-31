@@ -38,3 +38,4 @@ jobs:
       env:
         USER_1_ID: ${{ secrets.MY_TOKEN_ID }}
         USER_1_TOKEN: ${{ secrets.MY_TOKEN }}
+        WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
